@@ -2,7 +2,6 @@
 
 ![Screenshot ](/Screenshot-simple-calculator-flutter.jpg)
 
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
