@@ -1,7 +1,7 @@
 # simple_calculator
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Screenshot ](/Screenshot-simple-calculator-flutter.jpg)
+
 
 ## Getting Started
 
