@@ -1,4 +1,4 @@
-# Simple_Calculator
+# Simple Calculator
 
 ![Screenshot ](/Screenshot-simple-calculator-flutter.jpg)
 
