@@ -104,7 +104,7 @@ class _CalculatorState extends State<Calculator> {
           style: TextStyle(
               fontSize: 30.0,
               fontWeight: FontWeight.normal,
-              color: Colors.white),
+              color: Colors.black),
         ),
       ),
     );
@@ -133,7 +133,7 @@ class _CalculatorState extends State<Calculator> {
                 ),
               ),
               Divider(
-                color: Colors.greenAccent,
+                color: Colors.white,
                 height: 1.0,
               ),
               Expanded(
@@ -164,29 +164,29 @@ class _CalculatorState extends State<Calculator> {
                 child: Table(
                   children: [
                     TableRow(children: [
-                      buildButton("C", 1, Colors.red[900]),
-                      buildButton("Del", 1, Colors.red[400]),
-                      buildButton("÷", 1, Colors.blue[800]),
+                      buildButton("C", 1, Colors.white),
+                      buildButton("Del", 1, Colors.white),
+                      buildButton("÷", 1, Colors.white),
                     ]),
                     TableRow(children: [
-                      buildButton("7", 1, Colors.black87),
-                      buildButton("8", 1, Colors.black87),
-                      buildButton("9", 1, Colors.black87),
+                      buildButton("7", 1, Colors.white),
+                      buildButton("8", 1, Colors.white),
+                      buildButton("9", 1, Colors.white),
                     ]),
                     TableRow(children: [
-                      buildButton("4", 1, Colors.black87),
-                      buildButton("5", 1, Colors.black87),
-                      buildButton("6", 1, Colors.black87),
+                      buildButton("4", 1, Colors.white),
+                      buildButton("5", 1, Colors.white),
+                      buildButton("6", 1, Colors.white),
                     ]),
                     TableRow(children: [
-                      buildButton("1", 1, Colors.black87),
-                      buildButton("2", 1, Colors.black87),
-                      buildButton("3", 1, Colors.black87),
+                      buildButton("1", 1, Colors.white),
+                      buildButton("2", 1, Colors.white),
+                      buildButton("3", 1, Colors.white),
                     ]),
                     TableRow(children: [
-                      buildButton(".", 1, Colors.black87),
-                      buildButton("0", 1, Colors.black87),
-                      buildButton("00", 1, Colors.black87),
+                      buildButton(".", 1, Colors.white),
+                      buildButton("0", 1, Colors.white),
+                      buildButton("00", 1, Colors.white),
                     ])
                   ],
                 ),
@@ -195,16 +195,16 @@ class _CalculatorState extends State<Calculator> {
                 width: MediaQuery.of(context).size.width * .25,
                 child: Table(children: [
                   TableRow(children: [
-                    buildButton("x", 1, Colors.blue[800]),
+                    buildButton("x", 1, Colors.white),
                   ]),
                   TableRow(children: [
-                    buildButton("-", 1, Colors.blue[800]),
+                    buildButton("-", 1, Colors.white),
                   ]),
                   TableRow(children: [
-                    buildButton("+", 1, Colors.blue[800]),
+                    buildButton("+", 1, Colors.white),
                   ]),
                   TableRow(children: [
-                    buildButton("=", 2, Colors.yellow[600]),
+                    buildButton("=", 2, Colors.green),
                   ]),
                 ]),
               )
